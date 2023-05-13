@@ -4,36 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRINYTI </title>
+    <title>Trinity Games</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient( to right, rgb(20, 147, 220), rgb(17, 54, 71));
+        }
+        .box{
+            color: white;
+            position:absolute;
+            top: 50%;
+            left: 25%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 15px;
+            width: 20%;
+        }
+       .cabecalho{
+        padding: 2% 0% 0% 25%;;
+       }
+
+       .cabecalho__menu{
+        display: flex;
+        gap: 80px;
+       }
+       .cabecalho__menu__link{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-decoration: none;
+       }
+       .apresentacao{
+        padding: 2% 0% 0% 25%;;
+       }
+       .apresentacao__links__navegacao{
+        font-size: 1.5rem;
+        font-weight: 600;
+       }
+
+       .rodape{
+         padding: 24px;
+         color: white;
+        background-color: dodgerblue;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 1.0rem;
+        font-weight: 200;
+       }
+    </style>
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="cadastro.html">Cadastro</a>
             <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="sobre.html">Sobre</a>
-            <a class="cabecalho__menu__link" href="produtos.html">Nossos Produtos</a>
-            <a class="cabecalho__menu__link" href="contato.html">Entre em contato</a>
-            <a class="cabecalho__menu__link" href="login.html">Login</a>
+            <a class="cabecalho__menu__link" href="contato.html">Carrinho</a>
+            <a class="cabecalho__menu__link" href="sobre.html">Sobre nós</a>
+            <a class="cabecalho__menu__link" href="Cadastro.html">Sair</a>
         </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve sua experiência com jogos a outro nível com os <strong class="titulo destaque"> melhores jogos e melhores preços da nossa loja!</strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá, nos somos o E-commerce uma loja virtual onde o nosso principal propósito é gerar experiências extraorinarias aos nossos usúarios com os melhores preços e jogos <strong class="titulo__destaque"> para todas as plataformas e console.</strong></p>
-            <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Confira os consoles: </h2>
-                <a class="apresentacao__links__navegacao" href="produtos.html"> <img src="./assets/Playstation.svg" alt="playstation">Playstation</a>
-                <a class="apresentacao__links__navegacao" href="produtos.html"> <img src="./assets/Xbox.svg" alt="playstation">Xbox</a>
-                <a class="apresentacao__links__navegacao" href="produtos.html"> <img  src="./assets/Nintendo.svg" alt="playstation">Nintendo</a>
-            </div>
+            <h2 class="apresentacao__conteudo__titulo"><strong> Playstation: </strong></h2>
+            <a class="apresentacao__links__navegacao" href="https://store.playstation.com/pt-br/product/UP0102-CUSA04885_00-BH4HD00000000001"> <img src="./assets/resident_evil_4.jpg" height="150px" width="150px" alt="Re4"></a>
+            <a class="apresentacao__links__navegacao" href="https://store.playstation.com/pt-br/product/UP0102-CUSA01068_00-BHRHDPS400000001"> <img src="./assets/RE2.jfif" height="150px" width="150px" alt="Re"></a>
+            <a class="apresentacao__links__navegacao" href="https://store.playstation.com/pt-br/concept/232447"> <img src="./assets/HP.jpeg" height="150px" width="150px" alt="Re4"></a>
+            <a class="apresentacao__links__navegacao" href="https://store.playstation.com/pt-br/concept/201930"> <img src="./assets/gta.jpeg" height="150px" width="150px" alt="Re"></a>
+            <a class="apresentacao__links__navegacao" href="https://store.playstation.com/pt-br/concept/10004336"> <img src="./assets/fifa.jpeg" height="150px" width="150px" alt="Re4"></a>
+            <a class="apresentacao__links__navegacao" href="https://store.playstation.com/pt-br/concept/10000237"> <img src="./assets/ass.jpeg" height="150px" width="150px" alt="Re"></a>
+
+
+            <h2 class="apresentacao__conteudo__titulo"><strong> Xbox: </strong></h2>
+            <a class="apresentacao__links__navegacao" href="https://www.xbox.com/pt-br/games/store/forza-horizon-5-edicao-padrao/9nkx70bbcdrn"> <img src="./assets/forza.jfif" height="150px" width="150px" alt="forza5"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.xbox.com/pt-br/games/store/halo-infinite-campanha/9np1p1wfs0lb"> <img src="./assets/halo.jfif" height="150px" width="150px" alt="Halo"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.xbox.com/pt-BR/games/store/hogwarts-legacy-versao-xbox-one/9NK4NTBFWW81/0010"> <img src="./assets/HP.jpeg" height="150px" width="150px" alt="forza5"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.xbox.com/pt-BR/games/store/grand-theft-auto-v/BPJ686W6S0NH/0001"> <img src="./assets/gta.jpeg" height="150px" width="150px" alt="Halo"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.xbox.com/pt-BR/games/store/ea-sports-fifa-23-edicao-standard-para-xbox-one/9NDDMHZRZ0R6/0010"> <img src="./assets/fifa.jpeg" height="150px" width="150px" alt="forza5"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.xbox.com/pt-br/games/store/halo-infinite-campanha/9np1p1wfs0lb"> <img src="./assets/halo.jfif" height="150px" width="150px" alt="Halo"></a>
+            <h2 class="apresentacao__conteudo__titulo"><strong> Nintendo: </strong></h2>
+            <a class="apresentacao__links__navegacao" href="https://www.nintendo.com/pt-br/store/products/rocket-league-switch/"> <img src="./assets/rl.jfif" height="150px" width="150px" alt="RL"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.nintendo.com/pt-br/store/products/ea-sports-fifa-23-nintendo-switch-legacy-edition-switch/"> <img src="./assets/fifa.jpeg" height="150px" width="150px" alt="RL"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.nintendo.com/pt-br/store/products/mario-kart-8-deluxe-switch/"> <img src="./assets/mk.jfif" height="150px" width="150px" alt="Mario"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.nintendo.com/pt-br/store/products/resident-evil-revelations-2-switch/"> <img src="./assets/RE2.jfif" height="150px" width="150px" alt="RL"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.nintendo.com/pt-br/store/products/mario-kart-8-deluxe-switch/"> <img src="./assets/mk.jfif" height="150px" width="150px" alt="Mario"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.nintendo.com/pt-br/store/products/resident-evil-4-switch/"> <img src="./assets/resident_evil_4 copy.jpg" height="150px" width="150px" alt="Mario"></a>
         </section>
-        <img class="apresentacao__imagem" src="./assets/icone2.png" alt="Icone">
     </main>
     <footer class="rodape">
-        <p>Desenvolvido pelo grupo 007</p>
-
+        <p>TRINITY GAMES LTDA / CNPJ: 55.789.154/0001-10 </p>
+        <p>ENDEREÇO: RUA DOS BOBOS, 45 - SÃO PAULO, SP / TELEFONE: 4002-8922 / E-MAIL: TRINITY.GAMES@GMAIL.COM</p>
     </footer>
 </body>
 </html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity Games</title>
+    <style>
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient( to right, rgb(20, 147, 220), rgb(17, 54, 71));
+        }
+        .box{
+            color: white;
+            position:absolute;
+            top: 50%;
+            left: 25%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 15px;
+            width: 20%;
+        }
+       .cabecalho{
+        padding: 2% 0% 0% 25%;;
+       }
+
+       .cabecalho__menu{
+        display: flex;
+        gap: 80px;
+       }
+       .cabecalho__menu__link{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-decoration: none;
+        text-align: center;
+       }
+       .titulo_sobre{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-decoration: none;
+        text-align: center;
+       }
+       .texto_sobre{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-decoration: none;
+        text-align: center;
+       }
+       .apresentacao__links__navegacao {
+    /* background-color: aqua; */
+    display: inline-flex;
+    justify-content: center;
+    gap: 16px;
+    width: 60%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    font-size: auto;
+    font-weight: auto;
+    padding: 21.5px 0;
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+}
+.rodape{
+         padding: 24px;
+         color: white;
+        background-color: dodgerblue;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 1.0rem;
+        font-weight: 200;
+       }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="contato.html">Carrinho</a>
+            <a class="cabecalho__menu__link" href="sobre.html">Sobre nós</a>
+            <a class="cabecalho__menu__link" href="Cadastro.html">Sair</a>
+        </nav>
+    </header>
+    <br><br>
+    <h1 class="titulo_sobre">Trinity Games</h1>
+    <p class="texto_sobre"> Somos uma loja no ramo de jogos na área de vídeo games, visando um bom atendimento, preço justo e uma ótima 
+        qualidade e garantia. Temos como missão uma loja transparente e muito dedica ao cliente, gostamos de atender sempre com a mesmo 
+        qualidade desde a primeira venda. Temos uma historia longa e muito prospera e esperamos continuar seguindo sempre em frente, 
+        com o mesmo espírito batalhador de sempre, para atender todas as necessidades dos nossos clientes e amigos. Venha fazer parte da 
+        família.
+    </p>
+    <p class="texto_sobre">
+        Trabalhamos com jogos das seguintes plataforma:
+    </p>
+    <a class="apresentacao__links__navegacao" href="produtos.html"> <img src="./assets/Playstation.svg" alt="playstation">Playstation</a>
+    <a class="apresentacao__links__navegacao" href="produtos.html"> <img src="./assets/Xbox.svg" alt="playstation">Xbox</a>
+    <a class="apresentacao__links__navegacao" href="produtos.html"> <img  src="./assets/Nintendo.svg" alt="playstation">Nintendo</a>
+    <footer class="rodape">
+        <p>TRINITY GAMES LTDA / CNPJ: 55.789.154/0001-10 </p>
+        <p>ENDEREÇO: RUA DOS BOBOS, 45 - SÃO PAULO, SP / TELEFONE: 4002-8922 / E-MAIL: TRINITY.GAMES@GMAIL.COM</p>
+    </footer>
+</body>
+</html>
